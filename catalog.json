@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T01:12:59+00:00",
+  "generated_at": "2026-11-20T04:20:27+00:00",
   "gantry_compat": ">=0.11.0-beta.27",
   "packages": [
     {
@@ -45,8 +45,8 @@
       "description": "文生图：通义万相（DASHSCOPE_API_KEY）或 OpenAI（OPENAI_API_KEY），生成后落盘到工作区 generated/",
       "source": "packages/image-gen",
       "download": "dist/image-gen-0.1.0.zip",
-      "sha256": "221a373369cf949646779f0129b009d16e43ceab5177a373558d51c22b3e1d54",
-      "bytes": 3013,
+      "sha256": "3289bc64c83667502eb5070bb5aafeaca3e268e6f103f17dd57f58d66d12d7ee",
+      "bytes": 10589,
       "permissions": [
         "tools",
         "api",
@@ -293,14 +293,15 @@
       "description": "2D visual design: editable HTML/CSS/SVG projects, controlled Chromium rendering, inspection and PNG/JPG/SVG export",
       "source": "packages/visual-design",
       "download": "dist/visual-design-0.1.0.zip",
-      "sha256": "1f69c0464b206a4745bb2aaf6c09f0baaebcb7ca1925a996b0f259bb9e1ae11f",
-      "bytes": 12017,
+      "sha256": "45a627347631d7e90f9aed260494ce5d0d64e64c68b5c04d97c42e4d1acfb552",
+      "bytes": 15344,
       "permissions": [
         "tools",
         "files"
       ],
       "tools": [
         "design_create",
+        "asset_import",
         "design_modify",
         "design_render",
         "design_preview",
